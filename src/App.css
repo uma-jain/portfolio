@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+.component-container{
+   width: 70vw;
+  margin: auto;
+}
+.title{
+  background: linear-gradient(45deg, #FFFFFF 0.4%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+.title-content{
+  font-size: 18px;
+  max-width: 900px;
+  line-height: 26px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 20px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subtitle{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subtitle-content{
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.divider1{
+    width: 64px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    background: linear-gradient(
+270deg
+,#13ADC7 0%,#945DD6 100%);
+    margin: 4rem 0;
+}
+.divider2{
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: 
+  linear-gradient(
+  270deg
+  ,#F46737 0%,#945DD6 100%);
+  margin: 4rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+
+.btn-grad {
+  background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
+
+ padding: 15px 45px;
+ text-align: center;
+ text-transform:capitalize;
+ transition: 0.5s;
+ background-size: 200% auto;
+ color: rgb(235, 231, 231);     
+ border: none;
+ border-radius: 50px;
+ font-size: 18px;
+ align-self: flex-start;
+ transition: all 0.5 ease-out;
+ color: oldlace;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-grad a{
+  text-decoration: none;
+  color: rgb(255, 253, 250);
+}
+.btn-grad:hover {   
+  background: linear-gradient(270deg, #F46737 0%, #945DD6 100%) ;
+  box-shadow:  0px 2px 1px rgba(46, 49, 55, 0.15);
+  font-size: 19.5px;
+
+}
+
+@media only screen and (max-width:1000px){
+  .component-container{
+    width: 85vw;
+ }
+}
+@media only screen and (max-width:700px){
+  .component-container{
+    width: 90vw;
+ }
+}
+
+.mr-40{
+  margin: 40px 0;
 }

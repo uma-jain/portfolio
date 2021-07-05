@@ -1,0 +1,36 @@
+.intro{
+    display: flex;
+    justify-content: space-between;       
+    overflow: hidden;    
+    margin-top: 60px;
+    
+
+}
+
+
+.intro-text{
+  display: flex;
+  justify-content: center;
+  flex: 70%;
+  flex-direction: column;  
+  
+}
+
+.animation-holder{
+ width: 500px;
+ align-items: flex-end;
+ transform: scale(1.2);
+ flex: 40%;
+}
+
+
+ @media only screen and (max-width: 800.98px)
+ {
+    .animation-holder{
+        display: none;
+    }
+    .intro-text{       
+        
+        padding:  0 0 0 0 ;
+      }
+ }

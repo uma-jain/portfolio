@@ -1,0 +1,23 @@
+.tech ul {
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width:640px)
+ {
+    .tech ul {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+ }
+
+.tech{
+    margin-top: 50px;
+}
+
+.tech picture{
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+}

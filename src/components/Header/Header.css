@@ -1,0 +1,53 @@
+.navbar{       
+    overflow: hidden;
+}
+
+nav{
+    position: relative;
+    padding: 15px 10px  !important;
+    transition: all;
+
+}
+nav a{
+   
+    font-size: 2.2em !important;
+    }
+.navbar-nav a{
+    font-size: 1.5em !important;
+    }
+    .navbar-brand{
+     
+    transition: all 0.5  ease-in-out
+    }
+
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+#navbarSupportedContent{
+ position: absolute;
+ right: 3%;
+}
+.nav-item {
+
+    margin-right: 20px;
+    transition: all ease-in-out 50s;
+    border-bottom: none;
+}
+.nav-link:hover{    
+    border-bottom: 0.2px solid var(--primary1) ;
+}
+@media only screen and (max-width:640px)
+ {
+    #navbarSupportedContent{
+        position: relative;
+        left: 5px;
+      
+       }
+       .nav-link{
+           display: inline-block;
+           margin-bottom: 5px;
+       }
+       .navbar-collapse {
+        -webkit-box-shadow: 0 6px 8px -6px rgba(0, 0, 0, 0.651);
+       }
+}
